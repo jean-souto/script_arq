@@ -21,7 +21,7 @@ INTERVALO_DE_ATUALIZACAO = 5 # Menos que 5 vai dar ruim
 
 # Alerta sonoro
 def alerta_sonoro():
-    """Emite 5 bipes longos no Windows para chamar sua atenção."""
+    """Emite 10 bipes longos """
     print("Emitindo alerta sonoro...")
     for _ in range(10):
         winsound.Beep(1000, 1000) # Frequência 1000Hz, duração 1 segundo
