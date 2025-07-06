@@ -12,4 +12,5 @@ PARA WINDOWS SOMENTE
 7. Digite no cmd: python verificador_chrome.py
 8. Faça login assim que a página abrir - você terá 30 segundos
 9. Espere e reze - rodará por 1h
-10. Se der erro, resolva
+10 Se ele conseguir o ingresso o PC tocará um "alarme" de 10 bipes
+11. Se der erro, resolva

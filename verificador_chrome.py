@@ -1,4 +1,6 @@
 import time
+import os
+import winsound
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -16,6 +18,14 @@ URL_DO_EVENTO = "https://www.ingressolive.com/0507-funk-delas-60946" # Com o htt
 NOME_DO_INGRESSO_DESEJADO = "Estudante + Traje de atlética" # Se quiser outro, mude aqui
 INTERVALO_DE_ATUALIZACAO = 5 # Menos que 5 vai dar ruim
 # --- Fim das Configurações ---
+
+# Alerta sonoro
+def alerta_sonoro():
+    """Emite 5 bipes longos no Windows para chamar sua atenção."""
+    print("Emitindo alerta sonoro...")
+    for _ in range(10):
+        winsound.Beep(1000, 1000) # Frequência 1000Hz, duração 1 segundo
+        time.sleep(0.5)
 
 def configurar_driver():
     """Configura o driver para o Google Chrome de forma automática"""
@@ -60,6 +70,9 @@ def procurar_ingresso(driver):
             print("=" * 40)
             print(f"INGRESSO '{NOME_DO_INGRESSO_DESEJADO}' DISPONÍVEL! SELECIONANDO...")
             print("=" * 40)
+
+            # Chama o alerta sonoro
+            alerta_sonoro()
 
             # Escolher a opção com valor "1"
             caixa_de_selecao = Select(seletor_quantidade_element)
