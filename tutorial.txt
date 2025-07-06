@@ -1,0 +1,12 @@
+PARA WINDOWS SOMENTE
+
+1. Abrir o cmd
+2. Instalar o python. Se você não tiver, baixe e instale a partir do site oficial: python.org. Durante a instalação no Windows, marque a caixa que diz "Add Python to PATH".
+3. Digite no cmd: pip install webdriver_manager
+4. Digite no cmd: pip install selenium
+5. Tenha o google chrome instalado
+6. Insira o link correto do evento no código - linha 12
+7. Digite no cmd: python verificador_chrome.py
+8. Faça login assim que a página abrir
+9. Espere e reze - rodará por 1h
+10. Se der erro, resolva
