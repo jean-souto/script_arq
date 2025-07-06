@@ -1,4 +1,7 @@
 PARA WINDOWS SOMENTE
+- Baixe o arquivo .py e coloque NO MESMO CAMINHO QUE VOCÊ ABRIR O CMD.
+- Se o cmd abrir em C:Fulano/Ciclano, o arquivo .py VAI ESTER NA PASTA CICLANO.
+- Se você sabe mudar o diretório do cmd, então é só ignorar esse início. 
 
 1. Abrir o cmd
 2. Instalar o python. Se você não tiver, baixe e instale a partir do site oficial: python.org. Durante a instalação no Windows, marque a caixa que diz "Add Python to PATH".
