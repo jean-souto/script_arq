@@ -14,7 +14,7 @@ from selenium.webdriver.support.ui import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- Configurações ---
-URL_DO_EVENTO = "https://www.ingressolive.com/0507-funk-delas-60946" # Com o https e tudo mais
+URL_DO_EVENTO = "https://www.ingressolive.com/1107-funk-uai-61255" # Com o https e tudo mais
 NOME_DO_INGRESSO_DESEJADO = "Estudante + Traje de atlética" # Se quiser outro, mude aqui
 INTERVALO_DE_ATUALIZACAO = 5 # Menos que 5 vai dar ruim
 # --- Fim das Configurações ---
@@ -71,9 +71,6 @@ def procurar_ingresso(driver):
             print(f"INGRESSO '{NOME_DO_INGRESSO_DESEJADO}' DISPONÍVEL! SELECIONANDO...")
             print("=" * 40)
 
-            # Chama o alerta sonoro
-            alerta_sonoro()
-
             # Escolher a opção com valor "1"
             caixa_de_selecao = Select(seletor_quantidade_element)
             caixa_de_selecao.select_by_value("1")
@@ -82,6 +79,9 @@ def procurar_ingresso(driver):
             botao_continuar = driver.find_element(By.XPATH, '//button[contains(text(), "Continuar")]')
             botao_continuar.click()
             print("\n>>> AÇÃO NECESSÁRIA! PROSSIGA COM A COMPRA NA JANELA DO NAVEGADOR! <<<")
+
+            # Chama o alerta sonoro
+            alerta_sonoro()
             break
 
         except NoSuchElementException:
