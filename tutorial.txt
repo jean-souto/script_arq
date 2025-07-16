@@ -1,6 +1,7 @@
 >>> PARA WINDOWS SOMENTE <<<
 
 BAIXE O ARQUIVO SCRIPT_ARQ_CHROME.EXE, DÊ DOIS CLIQUES E SIGA FELIZ.
+- Muito possível que o windows defender GRITE "PERIGO", mas é um alarme falso. Selecione "Executar mesmo assim" e paz.
 - Espere e reze - rodará por 1h
 
 PARA DEVS E CURIOSOS - CÓDIGO FONTE DO ARQUIVO DISPONÍVEL:
