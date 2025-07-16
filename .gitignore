@@ -1,3 +1,4 @@
 .idea/
 verificador_chrome.spec
 .dist/
+.build/
