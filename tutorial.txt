@@ -1,16 +1,10 @@
-PARA WINDOWS SOMENTE
-- Baixe o arquivo .py e coloque NO MESMO CAMINHO QUE VOCÊ ABRIR O CMD.
-- Se o cmd abrir em C:Fulano/Ciclano, o arquivo .py VAI ESTER NA PASTA CICLANO.
-- Se você sabe mudar o diretório do cmd, então é só ignorar esse início. 
+>>> PARA WINDOWS SOMENTE <<<
 
-1. Tenha o python. Se você não tiver, baixe e instale a partir do site oficial: python.org. Durante a instalação no Windows, marque a caixa que diz "Add Python to PATH".
-2. Abra o cmd.
-3. Digite no cmd: pip install webdriver_manager
-4. Digite no cmd: pip install selenium
-5. Tenha o google chrome instalado
-6. Insira o link correto do evento no código - linha 15
-7. Digite no cmd: python verificador_chrome.py
-8. Faça login assim que a página abrir - você terá 30 segundos
-9. Espere e reze - rodará por 1h
-10 Se ele conseguir o ingresso o PC tocará um "alarme" de 10 bipes
-11. Se der erro, resolva
+BAIXE O ARQUIVO SCRIPT_ARQ_CHROME.EXE, DÊ DOIS CLIQUES E SIGA FELIZ.
+- Espere e reze - rodará por 1h
+
+PARA DEVS E CURIOSOS - CÓDIGO FONTE DO ARQUIVO DISPONÍVEL:
+1. Necessário webdriver_manager
+2. Necessário selenium
+3. Tenha o google chrome instalado
+4. Se der erro, resolva
