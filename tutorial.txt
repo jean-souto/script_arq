@@ -1,11 +1,11 @@
 >>> PARA WINDOWS SOMENTE <<<
 
-BAIXE O ARQUIVO SCRIPT_ARQ_CHROME.EXE, DÊ DOIS CLIQUES E SIGA FELIZ.
-- Muito possível que o windows defender GRITE "PERIGO", mas é um alarme falso. Selecione "Executar mesmo assim" e paz.
-- Espere e reze - rodará por 1h
+AGORA FUNCIONA NA INGRESSE!!!
+Baixe o .exe, dois cliques e fé.
+Ainda não botei nada que minera bitcoin no pc de vocês, então podem confiar!
 
 PARA DEVS E CURIOSOS - CÓDIGO FONTE DO ARQUIVO DISPONÍVEL:
-1. Necessário webdriver_manager
-2. Necessário selenium
+1. Não fiz o requirements.txt, então olha os imports aí pra baixar as dependências
+2. Código FEIO, mas funciona
 3. Tenha o google chrome instalado
 4. Se der erro, resolva
